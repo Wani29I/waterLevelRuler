@@ -27,6 +27,8 @@ Run the main.ipynb notebook to process the images and calculate the water level.
 ### Future Work
 To improve the accuracy of the QR code reader and measurement calculation, you can try using other QR code reading libraries or optimizing the current code. Additionally, you can consider using image processing techniques to enhance the quality of the input images. For future work, you can also explore the possibility of integrating the project with other sensors or technologies for more accurate measurements.
 
+To try more QR code reading libraries: https://blog.jonasneubert.com/2022/09/30/the-best-python-packages-for-reading-barcodes/
+
 ### References
 - OpenCV documentation
 - Pyzbar documentation
