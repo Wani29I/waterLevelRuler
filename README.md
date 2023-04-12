@@ -1,19 +1,17 @@
-# waterLevelRuler
+Water Level Ruler
+This project utilizes the Pyzbar and zxing-cpp libraries to read QR codes and calculate the water level of a ruler.
 
-Library currently used to read QR code in this project: Pyzbar and zxing-cpp
+Libraries Used
+Pyzbar
+zxing-cpp
+For a list of other QR code reading libraries that you can use, check out this blog post.
 
-more QR code reading library: https://blog.jonasneubert.com/2022/09/30/the-best-python-packages-for-reading-barcodes/
-
-File Description:
-
-TestImg: image data used to test
-
-contour: file for contour getting from testing cv2
-
-mainImageFile: main image file, add the photos of water level ruler here and run main.ipynb to get water level
-
-main.ipynb: main file with code and description
-
-testCode1.ipynb, testCode2.ipynb, testCode3.ipynb, testMain.ipynb: file used to test qr code reading library and contour
-
-testScew.ipynb: file used to test function used for scew correction
+File Description
+TestImg: image data used for testing
+Contour: file for contour getting from testing cv2
+MainImageFile: main image file, add photos of the water level ruler here and run main.ipynb to get the water level
+Main.ipynb: main file with code and description
+TestCode1.ipynb, TestCode2.ipynb, TestCode3.ipynb, TestMain.ipynb: files used to test QR code reading libraries and contours
+TestScew.ipynb: file used to test function for skew correction
+Future Work
+To improve the accuracy of the QR code reader and measurement calculation, consider using other QR code reading libraries or optimizing the current code. Image processing techniques can also be used to enhance the quality of input images. Additionally, the project can be integrated with other sensors or technologies for more accurate measurements.
